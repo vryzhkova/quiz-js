@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/nunito-v22-latin_cyrillic"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "quiz"
+	}
+}
