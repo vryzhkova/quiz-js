@@ -216,9 +216,12 @@ const renderQuiz = quiz => {
             event.preventDefault();
             let ok = false;
             const answer = [...form.answer].map(input => {
-                if(input.checked) ok === true;
+                if(input.checked) ok = true;
                 return input.checked ? input.value : false;
             });
+
+            console.log(ok);
+            console.log(answer);
 
             if(ok) {
                 if(answer.every((result, i) => !!result === answersData.keys[i])) {
